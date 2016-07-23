@@ -13,9 +13,9 @@ using System.Linq;
 /// </summary>
 public class Solution
 {
-	public static void Main()
-	{
-		Console.ReadLine(); // Don't need n.
-		Console.ReadLine().Split(' ').Reverse().ToList().ForEach(x => Console.Write($"{x} "));
-	}
+    public static void Main()
+    {
+        Console.ReadLine(); // Don't need n.
+        Console.ReadLine().Split(' ').Reverse().ToList().ForEach(x => Console.Write($"{x} "));
+    }
 }
