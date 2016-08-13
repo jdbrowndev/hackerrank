@@ -4,7 +4,7 @@ Date: 8-6-16
 
 Detects a cycle within a linked list.
 
-Link to problem:https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle
+Link to problem: https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle
 """
 def has_cycle(head):
     visited = set()
